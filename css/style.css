@@ -3,9 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(26, 26, 26, 0.9);
+  padding: 20px 40px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  backdrop-filter: blur(5px);
+}
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
 
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
 body {
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   color: white;
 }
 
@@ -13,6 +35,7 @@ body {
   display: flex;
   min-height: 100vh;
   background-color: #333333;
+  padding-top: 80px;
 }
 
 .left {
@@ -24,8 +47,14 @@ body {
 
   justify-content: flex-start;
 }
-h1{
-  font-size: 80px;
+h1 {
+  font-size: 50px;
+}
+.number {
+  font-size: 30px;
+}
+span {
+  font-size: 20px;
 }
 .right {
   flex: 1;
@@ -35,12 +64,6 @@ h1{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .menu {
@@ -88,7 +111,6 @@ h1{
   height: 100vh;
 }
 
-
 .side-image {
   flex: 1;
   background-size: cover;
@@ -114,6 +136,7 @@ h1{
 }
 
 .items {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -121,18 +144,16 @@ h1{
 }
 
 .item {
-
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   display: flex;
   gap: 15px;
   align-items: flex-start;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
 }
-.last{
+.last {
   border-bottom: none;
 }
-
 
 .item img {
   width: 24px;
@@ -151,7 +172,6 @@ h1{
   align-self: center;
   margin-top: 40px;
   height: 50px;
-
 }
 /* Основные стили */
 .form-section {
@@ -303,20 +323,32 @@ button[type="submit"]:hover {
   align-items: center;
 }
 .footer_end {
-
   padding-bottom: 30px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+li{
+  cursor: pointer;
+}
+li:hover{
+  color: red;
+}
 .ft1 {
   padding-left: 100px;
+}
+.order-btn_1:hover{
+  color: gray;
+}
+.order-btn:hover{
+  color:gray;
 }
 .ft2 {
   padding-right: 150px;
 }
-.ss{
-  color: #FFFFFF;
+.ss {
+  color: #ffffff;
   text-decoration: none;
+  margin-left: 42px;
 }
