@@ -144,8 +144,8 @@ span {
 }
 
 .item {
-  padding-top: 20px;
-  padding-bottom: 10px;
+
+  padding-bottom: 30px;
   display: flex;
   gap: 15px;
   align-items: flex-start;
