@@ -24,7 +24,9 @@ body {
 
   justify-content: flex-start;
 }
-
+h1{
+  font-size: 80px;
+}
 .right {
   flex: 1;
 }
@@ -53,7 +55,7 @@ body {
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 50px;
   margin-bottom: 30px;
 }
 
@@ -119,9 +121,9 @@ body {
 }
 
 .item {
-  margin-top: 20px;
+
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   display: flex;
   gap: 15px;
   align-items: flex-start;
@@ -301,6 +303,8 @@ button[type="submit"]:hover {
   align-items: center;
 }
 .footer_end {
+
+  padding-bottom: 30px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -311,4 +315,8 @@ button[type="submit"]:hover {
 }
 .ft2 {
   padding-right: 150px;
+}
+.ss{
+  color: #FFFFFF;
+  text-decoration: none;
 }
