@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Prata', serif;
   color: white;
 }
 
@@ -81,7 +81,7 @@ body {
   background-color: #282829;
 }
 
-.container_2 {
+.main_container {
   display: flex;
   height: 100vh;
 }
@@ -100,7 +100,7 @@ body {
   background-image: url("../img/1_9.png");
 }
 
-.content_2 {
+.main_content {
   flex: 1.2;
   background-color: #1d1d1d;
   color: white;
@@ -118,10 +118,18 @@ body {
 }
 
 .item {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   display: flex;
   gap: 15px;
   align-items: flex-start;
+  border-bottom: 1px solid #FFFFFF;
 }
+.last{
+  border-bottom: none;
+}
+
 
 .item img {
   width: 24px;
@@ -136,8 +144,11 @@ body {
   font-weight: bold;
   cursor: pointer;
   width: 100%;
-  max-width: 300px;
+  max-width: 550px;
   align-self: center;
+  margin-top: 40px;
+  height: 50px;
+
 }
 /* Основные стили */
 .form-section {
