@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #f17300;
+  --color-primary-dark: #e06600;
+  --color-accent: #ff0000;
+  
+  --color-white: #FFFFFF;
+  --color-gray-light: #cccccc;
+  --color-gray: #808080;
+  
+  --color-dark-100: #333333;
+  --color-dark-200: #2a2a2a;
+  --color-dark-300: #282829;
+  --color-dark-400: #222222;
+  --color-dark-500: #1d1d1d;
+  --color-dark-600: #1a1a1a;
+  
+  --color-dark-transparent: rgba(26, 26, 26, 0.9);
+}
