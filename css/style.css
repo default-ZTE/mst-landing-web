@@ -27,7 +27,9 @@ a{
   font-weight: bold;
   font-size: 24px;
 }
-
+li{
+  transition: all 0.3s ease;
+}
 .menu {
   display: flex;
   gap: 20px;
@@ -508,4 +510,7 @@ li:hover{
 }
 .a_footer:hover{
   color: #f17300 ;
+}
+a{
+  transition: all 0.3s ease;
 }
