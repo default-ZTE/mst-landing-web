@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>landing</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
@@ -18,15 +18,15 @@
   <nav class="nav">
     <div class="logo">ARCHBUILD</div>
     <ul class="menu">
-      <li>ABOUT</li>
-      <li>PROJECTS</li>
-      <li>CONTACTS</li>
+     <a href="#about"><li>ABOUT</li></a>
+     <a href="#projects"><li>PROJECTS</li></a>
+    <a href="#contacts"><li>CONTACTS</li></a>
     </ul>
   </nav>
 
   <div class="container">
     <div class="left">
-      <div class="content_1">
+      <div id="about" class="content_1">
         <h1>
           Modern Solutions <br />
           in Construction and Design
@@ -59,7 +59,7 @@
   <div class="main_container">
     <div class="side-image left"></div>
 
-    <div class="main_content">
+    <div id="projects" class="main_content">
       <div class="items">
         <div class="item">
           <img src="img/icon_img.png" alt="icon" />
@@ -113,11 +113,12 @@
     </div>
   </div>
 
-  <div class="footer_conetnt">
+  <div id="contacts" class="footer_conetnt">
     <div class="footer_nav">
-      <div>Partners</div>
-      <div>Documentation</div>
-      <div>Certificates</div>
+     <a class="a_footer" href="#">Partners</a>
+      <a class="a_footer" href="#">Documentation</a>
+      <a class="a_footer" href="#">Certificates</a>
+
     </div>
     <div class="footer">
       <div class="footer_text">ARCHBUILD</div>
@@ -134,7 +135,7 @@
     </div>
     <div class="footer_end">
       <div class="ft1"><a class="ss" href="#">© 2024, Copyright.</a></div>
-      <div><a class="ss" href="#">Privacy Policy</a></div>
+      <div class="ss"><a href="#">Privacy Policy</a></div>
       <div class="ft2"><a class="ss" href="#">Terms of Use</a></div>
     </div>
   </div>
