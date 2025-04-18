@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <meta name="theme-color" content="#FFFFFF">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landing</title>
+    <title>ArchBuild - Modern Construction & Design Solutions</title>
+    <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
@@ -15,130 +14,138 @@
     />
   </head>
   <body>
-  <nav class="nav">
-    <div class="logo">ARCHBUILD</div>
-    <ul class="menu">
-     <a href="#about"><li>ABOUT</li></a>
-     <a href="#projects"><li>PROJECTS</li></a>
-    <a href="#contacts"><li>CONTACTS</li></a>
-    </ul>
-  </nav>
-
-  <div class="container">
-    <div class="left">
-      <div id="about" class="content_1">
-        <h1>
-          Modern Solutions <br />
-          in Construction and Design
-        </h1>
-        <p class="subtitle">Creating the Future Together</p>
-        <ul class="features">
-          <li>
-            <span>✔</span> Up to <span class="number">$10,000</span>
-            <small>savings with a comprehensive development</small>
-          </li>
-          <li>
-            <span>✔</span>Up to <span class="number">30%</span>
-            <small>faster project delivery</small>
-          </li>
-          <li>
-            <span>✔</span> Up to <span class="number">17%</span>
-            <small>reduction in material costs</small>
-          </li>
+    <header>
+      <nav class="nav">
+        <a href="/" class="logo">ARCHBUILD</a>
+        <ul class="menu">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
         </ul>
-        <button class="order-btn_1">ORDER</button>
-      </div>
-    </div>
-    <div class="right">
-      <img src="./img/Achivsblock.jpg" alt="Building" />
-    </div>
-  </div>
+      </nav>
+    </header>
 
-  <div class="otdsyp"></div>
-
-  <div class="main_container">
-    <div class="side-image left"></div>
-
-    <div id="projects" class="main_content">
-      <div class="items">
-        <div class="item">
-          <img src="img/icon_img.png" alt="icon" />
-          <p>
-            Personalized approach for each client. We don't just build buildings — we create comfortable spaces for living and business.
-          </p>
+    <main>
+      <section id="about" class="container">
+        <div class="left">
+          <div class="content_1">
+            <h1>
+              Modern Solutions <br />
+              in Construction and Design
+            </h1>
+            <p class="subtitle">Creating the Future Together</p>
+            <ul class="features">
+              <li>
+                <span aria-hidden="true">✔</span> Up to <span class="number">$10,000</span>
+                <small>savings with a comprehensive development</small>
+              </li>
+              <li>
+                <span aria-hidden="true">✔</span>Up to <span class="number">30%</span>
+                <small>faster project delivery</small>
+              </li>
+              <li>
+                <span aria-hidden="true">✔</span> Up to <span class="number">17%</span>
+                <small>reduction in material costs</small>
+              </li>
+            </ul>
+            <button class="order-btn_1" type="button">ORDER</button>
+          </div>
         </div>
-        <div class="item">
-          <img src="img/icon_img.png" alt="icon" />
-          <p>
-            Over 10 years of experience in architecture, design, and engineering. More than 300 projects completed nationwide.
-          </p>
+        <div class="right">
+          <img src="./img/Achivsblock.jpg" alt="Modern building design showcase" />
         </div>
-        <div class="item">
-          <img src="img/icon_img.png" alt="icon" />
-          <p>
-            Comprehensive services: from idea to implementation. We oversee every stage, ensuring quality and timelines.
-          </p>
+      </section>
+
+      <div class="otdsyp" aria-hidden="true"></div>
+
+      <section id="projects" class="main_container">
+        <aside class="side-image left" aria-hidden="true"></aside>
+
+        <div class="main_content">
+          <h2 class="visually-hidden">Our Features</h2>
+          <ul class="items">
+            <li class="item">
+              <img src="img/icon_img.png" alt="Personalized approach icon" />
+              <p>
+                Personalized approach for each client. We don't just build buildings — we create comfortable spaces for living and business.
+              </p>
+            </li>
+            <li class="item">
+              <img src="img/icon_img.png" alt="Experience icon" />
+              <p>
+                Over 10 years of experience in architecture, design, and engineering. More than 300 projects completed nationwide.
+              </p>
+            </li>
+            <li class="item">
+              <img src="img/icon_img.png" alt="Comprehensive services icon" />
+              <p>
+                Comprehensive services: from idea to implementation. We oversee every stage, ensuring quality and timelines.
+              </p>
+            </li>
+            <li class="item last">
+              <img src="img/icon_img.png" alt="Client flexibility icon" />
+              <p>
+                We work with both private and corporate clients. Flexible pricing and personalized terms.
+              </p>
+            </li>
+          </ul>
+          <button class="order-btn" type="button">ORDER</button>
         </div>
-        <div class="item last">
-          <img src="img/icon_img.png" alt="icon" />
-          <p>
-            We work with both private and corporate clients. Flexible pricing and personalized terms.
-          </p>
+
+        <aside class="side-image right" aria-hidden="true"></aside>
+      </section>
+
+      <section class="form-section">
+        <div class="form-container">
+          <div class="form-content">
+            <h2>Request a Consultation</h2>
+            <form>
+              <label for="name" class="visually-hidden">Name</label>
+              <input id="name" name="name" type="text" placeholder="Name" required />
+              
+              <label for="email" class="visually-hidden">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="E-mail" required />
+              
+              <label class="checkbox-container">
+                <input type="checkbox" required />
+                <span class="checkmark"></span>
+                <span class="checkbox-text">I agree to the processing of personal data</span>
+              </label>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+          <div class="form-image">
+            <img class="woman" src="img/woman.png" alt="Business Woman" />
+          </div>
         </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="footer_conetnt">
+      <nav class="footer_nav">
+        <a class="a_footer" href="#">Partners</a>
+        <a class="a_footer" href="#">Documentation</a>
+        <a class="a_footer" href="#">Certificates</a>
+      </nav>
+      
+      <div class="footer">
+        <p class="footer_text">ARCHBUILD</p>
+        <div class="icon_container">
+          <a href="#" aria-label="Instagram"><img class="icon" src="./img/inst.svg" alt="Instagram" /></a>
+          <a href="#" aria-label="Music"><img class="icon" src="./img/music.svg" alt="Music" /></a>
+          <a href="#" aria-label="LinkedIn"><img class="icon" src="./img/in.svg" alt="LinkedIn" /></a>
+          <a href="#" aria-label="Facebook"><img class="icon" src="./img/facebook.svg" alt="Facebook" /></a>
+          <a href="#" aria-label="Telegram"><img class="icon" src="./img/tg.svg" alt="Telegram" /></a>
+          <a href="#" aria-label="YouTube"><img class="icon" src="./img/youtueb.svg" alt="YouTube" /></a>
+        </div>
+        <div><button class="order-btn_1" type="button">ORDER</button></div>
       </div>
-      <button class="order-btn">ORDER</button>
-    </div>
-
-    <div class="side-image right"></div>
-  </div>
-
-  <div class="form-section">
-    <div class="form-container">
-      <div class="form-content">
-        <h2>Request a Consultation</h2>
-        <form>
-          <input name="name" type="text" placeholder="Name" />
-          <input name="email" type="email" placeholder="E-mail" />
-          <label class="checkbox-container">
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-            <span class="checkbox-text">I agree to the processing of personal data</span>
-          </label>
-          <button type="submit">SEND</button>
-        </form>
+      
+      <div class="footer_end">
+        <div class="ft1"><a class="ss" href="#">© 2024, Copyright.</a></div>
+        <div class="ss"><a href="#">Privacy Policy</a></div>
+        <div class="ft2"><a class="ss" href="#">Terms of Use</a></div>
       </div>
-      <div class="form-image">
-        <img class="woman" src="img/woman.png" alt="Business Woman" />
-      </div>
-    </div>
-  </div>
-
-  <div id="contacts" class="footer_conetnt">
-    <div class="footer_nav">
-     <a class="a_footer" href="#">Partners</a>
-      <a class="a_footer" href="#">Documentation</a>
-      <a class="a_footer" href="#">Certificates</a>
-
-    </div>
-    <div class="footer">
-      <div class="footer_text">ARCHBUILD</div>
-      <div class="icon_container">
-        <a href="#"><img class="icon" src="./img/inst.svg" alt="Instagram" /></a>
-       <a href="#"> <img class="icon" src="./img/music.svg" alt="Music" /></a>
-        <a href="#"> <img class="icon" src="./img/in.svg" alt="LinkedIn" /></a>
-       <a href="#"><img class="icon" src="./img/facebook.svg" alt="Facebook" /></a>
-        <a href="#"> <img class="icon" src="./img/tg.svg" alt="Telegram" /></a>
-        <a href="#"><img  class="icon" src="./img/youtueb.svg" alt="YouTube" /></a>
-
-      </div>
-      <div><button class="order-btn_1">ORDER</button><br /></div>
-    </div>
-    <div class="footer_end">
-      <div class="ft1"><a class="ss" href="#">© 2024, Copyright.</a></div>
-      <div class="ss"><a href="#">Privacy Policy</a></div>
-      <div class="ft2"><a class="ss" href="#">Terms of Use</a></div>
-    </div>
-  </div>
-
+    </footer>
   </body>
 </html>
